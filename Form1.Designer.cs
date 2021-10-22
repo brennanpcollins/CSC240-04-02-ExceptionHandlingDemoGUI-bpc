@@ -1,7 +1,7 @@
 ﻿
 namespace CSC240_04_02_ExceptionHandlingDemoGUI_bpc
 {
-    partial class Form1
+    partial class ExceptionHandlingDemoGUI
     {
         /// <summary>
         ///  Required designer variable.
@@ -68,6 +68,7 @@ namespace CSC240_04_02_ExceptionHandlingDemoGUI_bpc
             this.UxFigureOutButton.TabIndex = 2;
             this.UxFigureOutButton.Text = "Is it an integer? Click Here!";
             this.UxFigureOutButton.UseVisualStyleBackColor = false;
+            this.UxFigureOutButton.Click += new System.EventHandler(this.UxFigureOutButton_Click);
             // 
             // UxOutputTextBox2
             // 
