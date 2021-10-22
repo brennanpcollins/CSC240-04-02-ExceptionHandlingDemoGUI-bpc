@@ -10,12 +10,27 @@ using System.Windows.Forms;
 
 namespace CSC240_04_02_ExceptionHandlingDemoGUI_bpc
 {
-    public partial class Form1 : Form
+    public partial class ExceptionHandlingDemoGUI : Form
     {
-        public Form1()
+        public ExceptionHandlingDemoGUI()
         {
             InitializeComponent();
         }
 
+        private void UxFigureOutButton_Click(object sender, EventArgs e)
+        {
+            int integer;
+            try
+            {
+                integer = Convert.ToInt32(UxTextBoxInput1.Text);
+                UxOutputTextBox2.Text = "Yes, that is an integer";
+                UxOutputTextBox2.Visible = true;
+            }
+            catch(Exception)
+            {
+                UxOutputTextBox2.Text = "Yeah, thats not an integer";
+                UxOutputTextBox2.Visible = true;
+            }
+        }
     }
 }

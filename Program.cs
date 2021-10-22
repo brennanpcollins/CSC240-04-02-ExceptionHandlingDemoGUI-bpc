@@ -17,7 +17,7 @@ namespace CSC240_04_02_ExceptionHandlingDemoGUI_bpc
             Application.SetHighDpiMode(HighDpiMode.SystemAware);
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new ExceptionHandlingDemoGUI());
         }
     }
 }
