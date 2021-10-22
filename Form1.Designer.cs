@@ -51,7 +51,7 @@ namespace CSC240_04_02_ExceptionHandlingDemoGUI_bpc
             this.UxTextBoxInput1.BackColor = System.Drawing.Color.DarkOrange;
             this.UxTextBoxInput1.Font = new System.Drawing.Font("Bauhaus 93", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.UxTextBoxInput1.ForeColor = System.Drawing.Color.Maroon;
-            this.UxTextBoxInput1.Location = new System.Drawing.Point(270, 107);
+            this.UxTextBoxInput1.Location = new System.Drawing.Point(275, 108);
             this.UxTextBoxInput1.Name = "UxTextBoxInput1";
             this.UxTextBoxInput1.Size = new System.Drawing.Size(204, 43);
             this.UxTextBoxInput1.TabIndex = 1;
@@ -62,7 +62,7 @@ namespace CSC240_04_02_ExceptionHandlingDemoGUI_bpc
             this.UxFigureOutButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.UxFigureOutButton.Font = new System.Drawing.Font("Bauhaus 93", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.UxFigureOutButton.ForeColor = System.Drawing.Color.Maroon;
-            this.UxFigureOutButton.Location = new System.Drawing.Point(298, 183);
+            this.UxFigureOutButton.Location = new System.Drawing.Point(303, 181);
             this.UxFigureOutButton.Name = "UxFigureOutButton";
             this.UxFigureOutButton.Size = new System.Drawing.Size(148, 106);
             this.UxFigureOutButton.TabIndex = 2;
