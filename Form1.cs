@@ -23,12 +23,12 @@ namespace CSC240_04_02_ExceptionHandlingDemoGUI_bpc
             try
             {
                 integer = Convert.ToInt32(UxTextBoxInput1.Text);
-                UxOutputTextBox2.Text = "Yes, that is an integer";
+                UxOutputTextBox2.Text = "Yo, that's an integer my man";
                 UxOutputTextBox2.Visible = true;
             }
             catch(Exception)
             {
-                UxOutputTextBox2.Text = "Yeah, thats not an integer";
+                UxOutputTextBox2.Text = "Yea... thats not an integer dude";
                 UxOutputTextBox2.Visible = true;
             }
         }

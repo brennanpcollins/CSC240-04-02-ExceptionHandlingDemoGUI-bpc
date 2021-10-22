@@ -40,7 +40,7 @@ namespace CSC240_04_02_ExceptionHandlingDemoGUI_bpc
             this.UxLabel1.AutoSize = true;
             this.UxLabel1.Font = new System.Drawing.Font("Bauhaus 93", 10.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.UxLabel1.ForeColor = System.Drawing.Color.Maroon;
-            this.UxLabel1.Location = new System.Drawing.Point(225, 38);
+            this.UxLabel1.Location = new System.Drawing.Point(224, 22);
             this.UxLabel1.Name = "UxLabel1";
             this.UxLabel1.Size = new System.Drawing.Size(318, 33);
             this.UxLabel1.TabIndex = 0;
@@ -51,10 +51,11 @@ namespace CSC240_04_02_ExceptionHandlingDemoGUI_bpc
             this.UxTextBoxInput1.BackColor = System.Drawing.Color.DarkOrange;
             this.UxTextBoxInput1.Font = new System.Drawing.Font("Bauhaus 93", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.UxTextBoxInput1.ForeColor = System.Drawing.Color.Maroon;
-            this.UxTextBoxInput1.Location = new System.Drawing.Point(275, 108);
+            this.UxTextBoxInput1.Location = new System.Drawing.Point(321, 106);
             this.UxTextBoxInput1.Name = "UxTextBoxInput1";
-            this.UxTextBoxInput1.Size = new System.Drawing.Size(204, 43);
+            this.UxTextBoxInput1.Size = new System.Drawing.Size(110, 43);
             this.UxTextBoxInput1.TabIndex = 1;
+            this.UxTextBoxInput1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // UxFigureOutButton
             // 
@@ -76,13 +77,14 @@ namespace CSC240_04_02_ExceptionHandlingDemoGUI_bpc
             this.UxOutputTextBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.UxOutputTextBox2.Font = new System.Drawing.Font("Bauhaus 93", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.UxOutputTextBox2.ForeColor = System.Drawing.Color.Maroon;
-            this.UxOutputTextBox2.Location = new System.Drawing.Point(225, 328);
+            this.UxOutputTextBox2.Location = new System.Drawing.Point(157, 329);
             this.UxOutputTextBox2.Name = "UxOutputTextBox2";
-            this.UxOutputTextBox2.Size = new System.Drawing.Size(290, 36);
+            this.UxOutputTextBox2.Size = new System.Drawing.Size(432, 36);
             this.UxOutputTextBox2.TabIndex = 3;
+            this.UxOutputTextBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.UxOutputTextBox2.Visible = false;
             // 
-            // Form1
+            // ExceptionHandlingDemoGUI
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(13F, 32F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -92,7 +94,7 @@ namespace CSC240_04_02_ExceptionHandlingDemoGUI_bpc
             this.Controls.Add(this.UxFigureOutButton);
             this.Controls.Add(this.UxTextBoxInput1);
             this.Controls.Add(this.UxLabel1);
-            this.Name = "Form1";
+            this.Name = "ExceptionHandlingDemoGUI";
             this.Text = "Form1";
             this.ResumeLayout(false);
             this.PerformLayout();
